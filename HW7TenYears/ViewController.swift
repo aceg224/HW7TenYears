@@ -34,7 +34,7 @@ class ViewController: UIViewController {
     @IBAction func tenYearsSlider(_ sender: UISlider) {
         let year = sender.value
         let yearInt = Int(year)
-        yearLabel.text = yearInt.description
+//        yearLabel.text = yearInt.description
         tenYearImageview.image = UIImage(named: yearInt.description + ".jpg")
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat =  "yyyy"
